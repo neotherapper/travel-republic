@@ -1,1 +1,0 @@
-"use strict";var travelRepublicApp=angular.module("travelRepublicApp",["ngResource","ngRoute","ipCookie","ui.router"]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]);travelRepublicApp.controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]);

@@ -1,0 +1,30 @@
+<div style="padding-left: 20px; padding-right: 20px"><img ng-src="{{hotel.ImageUrl}" alt="{{hotel.Name}}"><div class="row"><div class="col-md-9"><h2>{{hotel.Name}}</h2></div></div><div class="row"><div class="col-md-3"><div><strong>Stars:</strong>{{hotel.Stars}}</div><div><strong>UserRating:</strong>{{hotel.UserRating}}</div></div><div class="col-md-4"><address><strong>Address:</strong><br>{{hotel.Location}}<br></address></div></div><hr><!--     <div class="container-fluid">
+
+        <h3>Sessions</h3>
+        Order By:
+        <select ng-model="sortorder" class="input-sm">
+            <option selected value="name">Name</option>
+            <option value="-upVoteCount">Votes</option>
+        </select>
+
+        <ul class="thumbnail">
+            <li ng-repeat="session in event.sessions | orderBy:sortorder">
+
+
+                <div class="row session">
+
+                    <up-vote upvote="upVoteSession(session)" downvote="downVoteSession(session)" count="session.upVoteCount"></up-vote>
+
+                    <div class="well col-md-10" style="margin-left: 25px">
+                        <h4>{{session.name}}</h4>
+                        <h6 style="margin-top: -10px">{{session.creatorName}}</h6>
+                        <span>Duration: {{session.duration|durations }}</span><br>
+                        <span>Level: {{session.level}}</span>
+                        <p>{{session.abstract}}</p>
+                    </div>
+
+                </div>
+
+            </li>
+        </ul>
+    </div> --></div>
